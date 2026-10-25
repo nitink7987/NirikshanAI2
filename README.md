@@ -20,7 +20,7 @@
 
 *An end-to-end AI-powered Government Risk Intelligence, Automated Audit, and Forensic Decision-Support System designed for the Member of Parliament Local Area Development Scheme (MPLADS).*
 
-🌐 **Live Public Portal:** [https://sanchay-ai-two.vercel.app/](https://sanchay-ai-two.vercel.app/)
+
 
 </div>
 
