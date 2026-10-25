@@ -54,7 +54,7 @@ export function MinistryDashboardPage() {
   }));
 
   const handleAuditScan = () => {
-    toast.success('Initiating full-spectrum Sanchay audit scan across all 28 State Nodal offices...');
+    toast.success('Initiating full-spectrum Nirikshan AI audit scan across all 28 State Nodal offices...');
     setAiAssistantOpen(true);
   };
 

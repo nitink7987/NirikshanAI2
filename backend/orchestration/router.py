@@ -1,6 +1,6 @@
 """
 backend/orchestration/router.py
-Conditional Edge Routing Predicates for Sanchay AI LangGraph workflow.
+Conditional Edge Routing Predicates for Nirikshan AI LangGraph workflow.
 """
 from __future__ import annotations
 from typing import Any, Dict, List

@@ -1,6 +1,6 @@
 """
 ml/features/builder.py
-Canonical Single Source of Truth Feature Builder for Sanchay AI.
+Canonical Single Source of Truth Feature Builder for Nirikshan AI.
 Guarantees 100% feature consistency between batch training and real-time inference.
 """
 from __future__ import annotations

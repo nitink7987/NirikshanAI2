@@ -35,7 +35,7 @@ docs_url = "/docs" if _enable_docs else None
 redoc_url = "/redoc" if _enable_docs else None
 
 app = FastAPI(
-    title="SANCHAY AI Engine API",
+    title="NIRIKSHAN AI Engine API",
     description="Statutory Government Risk Assessment, Auditing & Compliance Intelligence System",
     version="2.0.0",
     docs_url=docs_url,

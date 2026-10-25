@@ -84,7 +84,7 @@ export function InteractiveProjectLifecycle() {
             Every Project Has a Story.
           </h2>
           <p className="text-sm sm:text-base text-[#6B6B6B] leading-relaxed">
-            From the initial parliamentary recommendation to physical asset handover, Sanchay continuously monitors checkpoints at every lifecycle milestone.
+            From the initial parliamentary recommendation to physical asset handover, Nirikshan continuously monitors checkpoints at every lifecycle milestone.
           </p>
         </div>
 

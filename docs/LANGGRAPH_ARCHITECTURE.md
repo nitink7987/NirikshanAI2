@@ -2,9 +2,9 @@
 
 ## 1. Executive Summary
 
-SANCHAY AI employs a **LangGraph-based stateful multi-agent orchestration layer**, combining deterministic analytical engines, machine learning pipelines, and LangChain tool abstractions into a resilient, checkpointed audit workflow.
+NIRIKSHAN AI employs a **LangGraph-based stateful multi-agent orchestration layer**, combining deterministic analytical engines, machine learning pipelines, and LangChain tool abstractions into a resilient, checkpointed audit workflow.
 
-Rather than orchestrating unstructured LLM conversations, SANCHAY implements a **Supervisor-governed state machine**. Each node in the graph performs a well-defined statutory, analytical, or investigative function, reading and writing to a strongly typed immutable state (`SanchayState`).
+Rather than orchestrating unstructured LLM conversations, NIRIKSHAN AI implements a **Supervisor-governed state machine**. Each node in the graph performs a well-defined statutory, analytical, or investigative function, reading and writing to a strongly typed immutable state (`SanchayState`).
 
 ```mermaid
 flowchart TD

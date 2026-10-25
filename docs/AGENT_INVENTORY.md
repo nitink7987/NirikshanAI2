@@ -1,4 +1,4 @@
-# Sanchay AI — Agent Inventory & LangGraph Mapping
+# Nirikshan AI — Agent Inventory & LangGraph Mapping
 
 This inventory documents all specialized agents and services across the codebase, identifying their core implementation type (Deterministic Rule, Statistical/ML Engine, or LLM-Reasoning Agent), input/output contracts, dependencies, and their mapping into the LangGraph stateful orchestration pipeline.
 
@@ -36,7 +36,7 @@ This inventory documents all specialized agents and services across the codebase
 
 ```
                   ┌─────────────────────────────────────────────────────────────┐
-                  │                 SANCHAY SUPERVISOR NODE                     │
+                  │                 NIRIKSHAN AI SUPERVISOR NODE                     │
                   │   - Inspects data presence & determines active subgraphs     │
                   └──────────────────────────────┬──────────────────────────────┘
                                                  │

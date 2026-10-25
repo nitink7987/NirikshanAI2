@@ -1,4 +1,4 @@
-# Sanchay AI — Production Hardening & ML Validity Report
+# Nirikshan AI — Production Hardening & ML Validity Report
 
 ## 1. Before vs. After Summary
 

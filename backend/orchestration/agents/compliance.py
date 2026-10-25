@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/compliance.py
-Compliance Specialist Agent Node for Sanchay AI LangGraph workflow.
+Compliance Specialist Agent Node for Nirikshan AI LangGraph workflow.
 Evaluates statutory rules (MPLADS 2023 Guidelines, GFR 2017) using deterministic tools and regulatory retrieval.
 """
 from __future__ import annotations

@@ -99,7 +99,7 @@ export function PlatformLoadingScreen({
                 <span>Entering {roleTitle}</span>
               </div>
               <h2 className="text-xl font-extrabold tracking-tight text-[#0E0E0E] uppercase font-sans">
-                SANCHAY
+                NIRIKSHAN AI
               </h2>
               <p className="text-xs text-[#6B6B6B] font-medium font-sans">
                 National Infrastructure Intelligence & Forensic Audit System

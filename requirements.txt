@@ -1,4 +1,4 @@
-# MPLADS Guardian / SANCHAY AI — Master Requirements
+# MPLADS Guardian / NIRIKSHAN AI — Master Requirements
 # Core Framework & APIs
 fastapi>=0.115.0
 uvicorn[standard]>=0.30.0

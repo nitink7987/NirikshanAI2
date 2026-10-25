@@ -1,8 +1,8 @@
-# SANCHAY — Backend Architecture & Developer Guide
+# NIRIKSHAN AI — Backend Architecture & Developer Guide
 
 ## Overview
 
-The **SANCHAY Backend** forms the robust, production-grade **Risk Intelligence and Audit Platform** for MPLADS oversight (Smart India Hackathon SIH-26102).
+The **NIRIKSHAN AI Backend** forms the robust, production-grade **Risk Intelligence and Audit Platform** for MPLADS oversight (Smart India Hackathon SIH-26102).
 
 Part A is responsible for:
 - Data Ingestion, Validation, Normalization, Entity Resolution & Provenance Tracing

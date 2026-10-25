@@ -60,7 +60,7 @@ export function FourViewsSection() {
             Tailored Cockpits for Every Level of Authority
           </h2>
           <p className="text-sm sm:text-base text-[#6B6B6B] leading-relaxed">
-            Different statutory roles have distinct mandates. Sanchay delivers role-specific intelligence lenses over the same unified data foundation.
+            Different statutory roles have distinct mandates. Nirikshan delivers role-specific intelligence lenses over the same unified data foundation.
           </p>
         </div>
 

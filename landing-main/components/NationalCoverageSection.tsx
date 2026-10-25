@@ -58,7 +58,7 @@ export function NationalCoverageSection() {
             </h2>
 
             <p className="text-sm text-gray-300 leading-relaxed font-sans font-normal">
-              SANCHAY monitors all 543 Lok Sabha and 245 Rajya Sabha parliamentary recommendations across India, establishing a unified audit ledger from national ministry oversight down to the village level.
+              NIRIKSHAN AI monitors all 543 Lok Sabha and 245 Rajya Sabha parliamentary recommendations across India, establishing a unified audit ledger from national ministry oversight down to the village level.
             </p>
 
             <div className="grid grid-cols-2 gap-3 pt-2">

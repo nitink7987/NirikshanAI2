@@ -1,6 +1,6 @@
 """
 ml/features/documentation.py
-Document Integrity, Presence, Completeness & Missing Indicators for Sanchay AI.
+Document Integrity, Presence, Completeness & Missing Indicators for Nirikshan AI.
 """
 from __future__ import annotations
 from typing import Any, Dict, Optional

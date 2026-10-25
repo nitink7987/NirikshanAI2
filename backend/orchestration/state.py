@@ -1,6 +1,6 @@
 """
 backend/orchestration/state.py
-Shared Strongly-Typed State Definition for Sanchay AI LangGraph Pipeline.
+Shared Strongly-Typed State Definition for Nirikshan AI LangGraph Pipeline.
 """
 from __future__ import annotations
 from typing import Any, Dict, List, Optional, TypedDict

@@ -95,9 +95,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       <aside
         id="sidebar-wise"
-        className={`fixed lg:static top-0 left-0 bottom-0 z-50 w-64 bg-white flex flex-col justify-between py-6 px-4 transition-transform duration-200 border-r border-[#F1F0EC] lg:border-none select-none ${
-          mobileOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
-        }`}
+        className={`fixed lg:static top-0 left-0 bottom-0 z-50 w-64 bg-white flex flex-col justify-between py-6 px-4 transition-transform duration-200 border-r border-[#F1F0EC] lg:border-none select-none ${mobileOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
+          }`}
       >
         {/* Top Section */}
         <div className="space-y-6">
@@ -148,11 +147,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 <button
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${
-                    isActive
+                  className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${isActive
                       ? 'bg-[#EAE8E2] text-[#0E0E0E] font-semibold'
                       : 'text-[#0E0E0E] hover:bg-[#F1F0EC] hover:text-[#0E0E0E]'
-                  }`}
+                    }`}
                 >
                   <div className="flex items-center gap-3.5 min-w-0">
                     <Icon className="w-5 h-5 stroke-[1.75] shrink-0" />
@@ -172,11 +170,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <div className="pt-0.5">
               <button
                 onClick={() => setInvestigationExpanded(!investigationExpanded)}
-                className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${
-                  isInvestigationActive && !investigationExpanded
+                className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${isInvestigationActive && !investigationExpanded
                     ? 'bg-[#EAE8E2] text-[#0E0E0E] font-semibold'
                     : 'text-[#0E0E0E] hover:bg-[#F1F0EC]'
-                }`}
+                  }`}
               >
                 <div className="flex items-center gap-3.5">
                   <Search className="w-5 h-5 stroke-[1.75]" />
@@ -198,11 +195,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       <button
                         key={sub.id}
                         onClick={() => handleNavClick(sub.id)}
-                        className={`w-full text-left py-2 px-3 rounded-full text-sm transition-colors block cursor-pointer ${
-                          isSubActive
+                        className={`w-full text-left py-2 px-3 rounded-full text-sm transition-colors block cursor-pointer ${isSubActive
                             ? 'text-[#0E0E0E] font-semibold bg-[#EAE8E2]'
                             : 'text-[#6B6B6B] hover:text-[#0E0E0E] hover:bg-[#F1F0EC]'
-                        }`}
+                          }`}
                       >
                         {sub.label}
                       </button>
@@ -220,11 +216,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 <button
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${
-                    isActive
+                  className={`w-full flex items-center justify-between px-4 py-3 rounded-full text-sm font-medium transition-all text-left cursor-pointer ${isActive
                       ? 'bg-[#EAE8E2] text-[#0E0E0E] font-semibold'
                       : 'text-[#0E0E0E] hover:bg-[#F1F0EC] hover:text-[#0E0E0E]'
-                  }`}
+                    }`}
                 >
                   <div className="flex items-center gap-3.5 min-w-0">
                     <Icon className="w-5 h-5 stroke-[1.75] shrink-0" />
@@ -238,7 +233,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Footer info in sidebar */}
         <div className="px-3 pt-4 border-t border-[#F1F0EC] text-xs text-[#6B6B6B] flex items-center justify-between">
-          <span>SANCHAY v3.0</span>
+          <span>NIRIKSHAN AI v3.0</span>
           <span className="w-2 h-2 rounded-full bg-[#15803D]" title="System Live" />
         </div>
       </aside>

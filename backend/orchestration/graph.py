@@ -1,6 +1,6 @@
 """
 backend/orchestration/graph.py
-LangGraph Stateful Multi-Agent Orchestration Pipeline for Sanchay AI.
+LangGraph Stateful Multi-Agent Orchestration Pipeline for Nirikshan AI.
 Combines LangGraph stateful graph execution with backward-compatible digital twin orchestrator.
 """
 from __future__ import annotations
@@ -219,7 +219,7 @@ def finalize_node(state: SanchayState) -> Dict[str, Any]:
 
 
 def build_sanchay_graph() -> StateGraph:
-    """Builds and compiles the Sanchay AI LangGraph workflow."""
+    """Builds and compiles the Nirikshan AI LangGraph workflow."""
     workflow = StateGraph(SanchayState)
 
     # 1. Add Nodes
@@ -291,7 +291,7 @@ class SanchayOrchestrator:
         self.graph = sanchay_graph
 
     async def execute(self, project_data: Dict[str, Any], config: Optional[Dict[str, Any]] = None) -> SanchayState:
-        """Asynchronously executes the Sanchay LangGraph workflow."""
+        """Asynchronously executes the Nirikshan LangGraph workflow."""
         init_state: SanchayState = {
             "project_data": project_data,
             "completed_nodes": [],
@@ -303,7 +303,7 @@ class SanchayOrchestrator:
         return await self.graph.ainvoke(init_state, config=run_config)
 
     def execute_sync(self, project_data: Dict[str, Any], config: Optional[Dict[str, Any]] = None) -> SanchayState:
-        """Synchronously executes the Sanchay LangGraph workflow."""
+        """Synchronously executes the Nirikshan LangGraph workflow."""
         init_state: SanchayState = {
             "project_data": project_data,
             "completed_nodes": [],

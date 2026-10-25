@@ -1,6 +1,6 @@
 """
 ml/features/financial.py
-Deterministic Financial Feature Engineering for Sanchay AI.
+Deterministic Financial Feature Engineering for Nirikshan AI.
 Extracts budget, expenditure, cost ratios, and payment concentration metrics strictly without random noise.
 """
 from __future__ import annotations

@@ -1,6 +1,6 @@
 """
 backend/orchestration/persistence/checkpoint.py
-LangGraph Checkpoint Persistence and Trace Registry for Sanchay AI.
+LangGraph Checkpoint Persistence and Trace Registry for Nirikshan AI.
 """
 from __future__ import annotations
 from typing import Any, Dict, Optional

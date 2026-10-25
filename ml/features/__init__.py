@@ -1,6 +1,6 @@
 """
 ml/features
-Canonical Feature Engineering Engine for Sanchay AI.
+Canonical Feature Engineering Engine for Nirikshan AI.
 """
 from __future__ import annotations
 import os

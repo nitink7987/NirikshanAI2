@@ -1,6 +1,6 @@
 """
 tests/test_data_contract.py
-Mandatory Data Contract & Feature Consistency Tests for Sanchay AI.
+Mandatory Data Contract & Feature Consistency Tests for Nirikshan AI.
 Verifies:
 1. Training features == Inference features for identical project inputs (Zero Drift).
 2. Point-in-time filtering rejects future data.

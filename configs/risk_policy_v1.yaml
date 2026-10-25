@@ -1,5 +1,5 @@
 # configs/risk_policy_v1.yaml
-# Sanchay AI — Versioned Risk Policy & Fusion Configuration
+# Nirikshan AI — Versioned Risk Policy & Fusion Configuration
 version: "1.0.0"
 policy_name: "MPLADS Statutory & Anomaly Risk Fusion Policy"
 description: >

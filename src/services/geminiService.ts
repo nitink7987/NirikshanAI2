@@ -1,5 +1,5 @@
 /**
- * SANCHAY Gemini AI Forensic Intelligence Service
+ * NIRIKSHAN AI Gemini AI Forensic Intelligence Service
  * Connects directly to Google Gemini models to provide real-time, grounded
  * statutory audit intelligence, case synthesis, and forensic query answering.
  */
@@ -41,7 +41,7 @@ export interface GeminiResponse {
   modelUsed: string;
 }
 
-const SYSTEM_GROUNDING_PROMPT = `You are SANCHAY AI (Statutory Audit Neural Cartography & Holistic Analytics for Yield Oversight), the official AI Forensic Intelligence Copilot for the Ministry of Statistics & Programme Implementation (MoSPI), Government of India.
+const SYSTEM_GROUNDING_PROMPT = `You are NIRIKSHAN AI (Statutory Audit Neural Cartography & Holistic Analytics for Yield Oversight), the official AI Forensic Intelligence Copilot for the Ministry of Statistics & Programme Implementation (MoSPI), Government of India.
 
 YOUR MANDATE:
 - Analyze Member of Parliament Local Area Development Scheme (MPLADS) infrastructure projects across all 543 Lok Sabha and 245 Rajya Sabha constituencies.
@@ -141,7 +141,7 @@ export async function askGemini(
       return {
         ...localResult,
         answer: `[Note: Gemini API returned "${err.message || "Connection Issue"}". Using grounded local statutory intelligence]:\n\n${localResult.answer}`,
-        modelUsed: "SANCHAY Local Heuristic Engine (API Key Fallback)",
+        modelUsed: "NIRIKSHAN AI Local Heuristic Engine (API Key Fallback)",
       };
     }
   }
@@ -165,7 +165,7 @@ function generateGroundedFallbackResponse(
         { type: "freeze", label: "Freeze PFMS Escrow Tranche" },
         { type: "inspect", label: "Dispatch Physical Audit Team" },
       ],
-      modelUsed: "SANCHAY Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
+      modelUsed: "NIRIKSHAN AI Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
     };
   }
 
@@ -177,7 +177,7 @@ function generateGroundedFallbackResponse(
         { type: "subpoena", label: "Issue Section 14 Subpoena" },
         { type: "freeze", label: "Blacklist Contractor Network" },
       ],
-      modelUsed: "SANCHAY Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
+      modelUsed: "NIRIKSHAN AI Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
     };
   }
 
@@ -189,16 +189,16 @@ function generateGroundedFallbackResponse(
         { type: "satellite", label: "Retask High-Resolution SAR Pass" },
         { type: "inspect", label: "Order Independent Geodetic Survey" },
       ],
-      modelUsed: "SANCHAY Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
+      modelUsed: "NIRIKSHAN AI Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
     };
   }
 
   return {
-    answer: `SANCHAY Statutory Intelligence Synthesis for ${district}:\n• Monitored Portfolio: 128 active works, ₹48.50 Cr sanctioned, ₹38.40 Cr disbursed (79.2% utilization).\n• Active Flags: 7 critical divergence cases, 2 contractor collusion rings, 4 pending Utilization Certificates (UCs) exceeding statutory 18-month cutoff.\n• Legal Benchmark: All ongoing estimates cross-referenced against State PWD Schedule of Rates 2025-26 with <2% variance tolerance.`,
+    answer: `NIRIKSHAN AI Statutory Intelligence Synthesis for ${district}:\n• Monitored Portfolio: 128 active works, ₹48.50 Cr sanctioned, ₹38.40 Cr disbursed (79.2% utilization).\n• Active Flags: 7 critical divergence cases, 2 contractor collusion rings, 4 pending Utilization Certificates (UCs) exceeding statutory 18-month cutoff.\n• Legal Benchmark: All ongoing estimates cross-referenced against State PWD Schedule of Rates 2025-26 with <2% variance tolerance.`,
     citations: ["MPLADS Guidelines 2023 §4.2", "State PWD Schedule of Rates 2025-26", "District Planning Ledger"],
     suggestedActions: [
       { type: "inspect", label: "View Detailed Risk Matrix" },
     ],
-    modelUsed: "SANCHAY Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
+    modelUsed: "NIRIKSHAN AI Grounded Knowledge Engine (Configure VITE_GEMINI_API_KEY for Live Gemini)",
   };
 }

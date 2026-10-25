@@ -1,6 +1,6 @@
 """
 ml/features/procurement.py
-Procurement, Tender Spread & Bidding Risk Features for Sanchay AI.
+Procurement, Tender Spread & Bidding Risk Features for Nirikshan AI.
 """
 from __future__ import annotations
 from typing import Any, Dict, List, Optional

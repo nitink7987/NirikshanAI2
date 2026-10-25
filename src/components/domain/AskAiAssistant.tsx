@@ -24,8 +24,8 @@ function FormattedMessage({ text }: { text: string }) {
         const cleanLine = isHeader
           ? line.replace(/^#+\s*/, "")
           : isBullet
-          ? line.replace(/^[•\-*]\s*/, "• ")
-          : line;
+            ? line.replace(/^[•\-*]\s*/, "• ")
+            : line;
 
         // Parse **bold** markers cleanly
         const parts = cleanLine.split(/(\*[^*]+\*)/g);
@@ -33,9 +33,8 @@ function FormattedMessage({ text }: { text: string }) {
         return (
           <p
             key={idx}
-            className={`${isHeader ? "font-bold text-[#002449] text-xs pt-1" : ""} ${
-              isBullet ? "pl-2 text-[#0E0E0E]" : ""
-            }`}
+            className={`${isHeader ? "font-bold text-[#002449] text-xs pt-1" : ""} ${isBullet ? "pl-2 text-[#0E0E0E]" : ""
+              }`}
           >
             {parts.map((part, pIdx) => {
               if (part.startsWith("**") && part.endsWith("**")) {
@@ -70,7 +69,7 @@ export function AskAiAssistant() {
     {
       id: "welcome",
       sender: "ai",
-      text: `Hello, Vigilance Officer. I am Sanchay, your AI statutory audit assistant. I monitor e-Sakshi ledgers and Cartosat-3 SAR elevation data across ${selectedDistrict}. How can I assist you?`,
+      text: `Hello, Vigilance Officer. I am Nirikshan AI, your AI statutory audit assistant. I monitor e-Sakshi ledgers and Cartosat-3 SAR elevation data across ${selectedDistrict}. How can I assist you?`,
     },
   ]);
   const [isThinking, setIsThinking] = useState(false);
@@ -154,12 +153,12 @@ export function AskAiAssistant() {
           <button
             onClick={() => setAiAssistantOpen(true)}
             className="group flex items-center gap-2 bg-[#0E0E0E] hover:bg-black text-white px-4 py-2.5 rounded-full shadow-lg hover:shadow-xl transition-all cursor-pointer border border-white/20 active:scale-95"
-            title="Ask Sanchay AI Assistant"
+            title="Ask Nirikshan AI Assistant"
           >
             <div className="w-6 h-6 rounded-full bg-[#15803D] flex items-center justify-center text-white">
               <Sparkles className="w-3.5 h-3.5 fill-current" />
             </div>
-            <span className="text-xs font-bold tracking-tight">Ask Sanchay</span>
+            <span className="text-xs font-bold tracking-tight">Ask Nirikshan AI</span>
             <span className="w-2 h-2 rounded-full bg-[#15803D] animate-pulse" />
           </button>
         </div>
@@ -187,7 +186,7 @@ export function AskAiAssistant() {
                     <Sparkles className="w-5 h-5 stroke-[2.2]" />
                   </div>
                   <div>
-                    <h3 className="text-base font-bold text-[#0E0E0E]">SANCHAY AI Assistant</h3>
+                    <h3 className="text-base font-bold text-[#0E0E0E]">NIRIKSHAN AI Assistant</h3>
                     <p className="text-xs text-[#6B6B6B]">
                       Role: {userTitle} ({selectedDistrict} Context)
                     </p>
@@ -216,11 +215,10 @@ export function AskAiAssistant() {
                     )}
 
                     <div
-                      className={`max-w-[85%] rounded-2xl p-4 text-xs leading-relaxed ${
-                        msg.sender === "user"
+                      className={`max-w-[85%] rounded-2xl p-4 text-xs leading-relaxed ${msg.sender === "user"
                           ? "bg-[#0E0E0E] text-white font-medium"
                           : "bg-[#F1F0EC] text-[#0E0E0E] border border-[#E5E3DC] space-y-3"
-                      }`}
+                        }`}
                     >
                       <FormattedMessage text={msg.text} />
 
@@ -289,7 +287,7 @@ export function AskAiAssistant() {
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Ask Sanchay to scan projects, check cartel nodes, or explain guidelines..."
+                    placeholder="Ask Nirikshan to scan projects, check cartel nodes, or explain guidelines..."
                     className="flex-1 bg-white border border-[#E5E3DC] rounded-full px-4 py-2.5 text-xs text-[#0E0E0E] placeholder-[#9E9E9E] focus:outline-none focus:border-[#0E0E0E]"
                   />
                   <button

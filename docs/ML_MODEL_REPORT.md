@@ -1,7 +1,7 @@
-# Sanchay AI — Machine Learning & Statutory Risk Model Report
+# Nirikshan AI — Machine Learning & Statutory Risk Model Report
 
 ## 1. Executive Summary
-The **Sanchay Machine Learning Risk Engine** classifies project risk into **LOW, MEDIUM, HIGH, and CRITICAL** tiers and predicts multi-label anomaly vectors across 7 operational domains.
+The **Nirikshan Machine Learning Risk Engine** classifies project risk into **LOW, MEDIUM, HIGH, and CRITICAL** tiers and predicts multi-label anomaly vectors across 7 operational domains.
 
 The model stack features **Random Forest, CatBoost, XGBoost, LightGBM, and Isolation Forest**, calibrated with Platt Scaling (3-Fold Sigmoid Calibration) to output reliable posterior probabilities.
 

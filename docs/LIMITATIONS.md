@@ -1,6 +1,6 @@
-# Sanchay AI — System Limitations & Governance Constraints
+# Nirikshan AI — System Limitations & Governance Constraints
 
-This document outlines the real-world operational constraints, data limitations, and architectural boundaries of the Sanchay AI platform.
+This document outlines the real-world operational constraints, data limitations, and architectural boundaries of the Nirikshan AI platform.
 
 ---
 
@@ -12,7 +12,7 @@ This document outlines the real-world operational constraints, data limitations,
 ---
 
 ## 2. Ground-Truth & Judicial Liability Limitations
-- Sanchay AI produces **risk screening indicators**, not legal proof of fraud.
+- Nirikshan AI produces **risk screening indicators**, not legal proof of fraud.
 - An alert indicates that a project matches statistical or rule-based patterns associated with non-compliance (such as single-bid concentration or expenditure leading physical progress).
 - Official prosecution or administrative sanctions must always be predicated on formal site verification by the District Planning Authority, physical Measurement Book audits, and technical vigilance squad reports.
 
@@ -39,6 +39,6 @@ This document outlines the real-world operational constraints, data limitations,
 ---
 
 ## 6. Regulatory RAG & Policy Versioning
-- Sanchay AI's RAG system enforces temporal routing between legacy guidelines (MPLADS 2016) and modernized digital guidelines (MPLADS 2023 / e-SAKSHI).
+- Nirikshan AI's RAG system enforces temporal routing between legacy guidelines (MPLADS 2016) and modernized digital guidelines (MPLADS 2023 / e-SAKSHI).
 - For works sanctioned prior to April 1, 2023, legacy financial tranches and revised expenditure rules are applied.
 - If relevant citations cannot be retrieved with high vector and BM25 relevance (`score < 0.65`), the system returns a fallback notice rather than hallucinating statutory provisions.

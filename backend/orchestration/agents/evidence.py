@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/evidence.py
-Regulatory Evidence & RAG Agent Node for Sanchay AI LangGraph workflow.
+Regulatory Evidence & RAG Agent Node for Nirikshan AI LangGraph workflow.
 """
 from __future__ import annotations
 from typing import Any, Dict, List

@@ -1,6 +1,6 @@
 """
 data/generator_b.py
-Independent Synthetic Generator B (External Holdout & OOD Validation) for Sanchay AI.
+Independent Synthetic Generator B (External Holdout & OOD Validation) for Nirikshan AI.
 Generates an independent external test benchmark with orthogonal fraud and anomaly mechanisms:
 1. Contractor Collusion & Cartel Rotation Rings
 2. Documentation Masking & False Certification

@@ -1,5 +1,5 @@
 ============================================================
-Sanchay AI Audit — Held-Out Test Classification Report
+Nirikshan AI Audit — Held-Out Test Classification Report
 ============================================================
 
                       precision    recall  f1-score   support

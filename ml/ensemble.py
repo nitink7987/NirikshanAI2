@@ -1,6 +1,6 @@
 """
 ml/ensemble.py
-Hybrid Risk Ensemble Engine for Sanchay AI.
+Hybrid Risk Ensemble Engine for Nirikshan AI.
 Fuses Supervised ML, Unsupervised Anomaly Detection, Rule Engine, Contractor Risk, and Evidence Integrity into a unified calibrated risk score.
 Loads weights and thresholds dynamically from versioned risk policy configs/risk_policy_v1.yaml.
 """

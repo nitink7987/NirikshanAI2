@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/explanation.py
-Audit Explanation & Synthesis Agent Node for Sanchay AI LangGraph workflow.
+Audit Explanation & Synthesis Agent Node for Nirikshan AI LangGraph workflow.
 Generates neutral, evidence-grounded plain-language summaries for auditors.
 """
 from __future__ import annotations

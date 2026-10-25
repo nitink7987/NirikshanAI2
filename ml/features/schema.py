@@ -1,6 +1,6 @@
 """
 ml/features/schema.py
-Canonical Feature Schema and Definitions for Sanchay AI.
+Canonical Feature Schema and Definitions for Nirikshan AI.
 Defines every feature's type, source, lifecycle stage, missing-value behavior, and calculation rules.
 """
 from __future__ import annotations

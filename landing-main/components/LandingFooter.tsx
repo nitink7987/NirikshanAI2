@@ -14,7 +14,7 @@ export function LandingFooter() {
               <div className="flex h-9 w-9 items-center justify-center">
                 <SanchayLogo className="h-full w-full object-contain" variant="light" />
               </div>
-              <span className="font-extrabold text-white text-base tracking-wider font-sans">SANCHAY</span>
+              <span className="font-extrabold text-white text-base tracking-wider font-sans">NIRIKSHAN AI</span>
             </div>
             <p className="text-[11px] text-gray-400 leading-relaxed">
               AI-Powered Risk Intelligence & Investigation Decision Support for MPLADS.

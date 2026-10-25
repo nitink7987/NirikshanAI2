@@ -1,6 +1,6 @@
-# Sanchay AI — Feature Availability & Point-in-Time Matrix
+# Nirikshan AI — Feature Availability & Point-in-Time Matrix
 
-This document defines the lifecycle availability stages, point-in-time constraints, and data leakage rules for all features engineered in Sanchay AI.
+This document defines the lifecycle availability stages, point-in-time constraints, and data leakage rules for all features engineered in Nirikshan AI.
 
 ---
 

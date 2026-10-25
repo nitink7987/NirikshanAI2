@@ -1,6 +1,6 @@
 """
 ml/inference.py
-Canonical Model Inference & Probability Calibration Service for Sanchay AI.
+Canonical Model Inference & Probability Calibration Service for Nirikshan AI.
 Loads trained CatBoost, XGBoost, LightGBM, Random Forest, Isolation Forest, and RobustScaler artifacts.
 Shares identical FeatureBuilder logic with batch training pipeline for 100% feature consistency.
 """

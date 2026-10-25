@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/investigation.py
-Investigation Planning Agent Node for Sanchay AI LangGraph workflow.
+Investigation Planning Agent Node for Nirikshan AI LangGraph workflow.
 Creates structured field verification checklists, questions for authorities, and prioritized action steps.
 """
 from __future__ import annotations

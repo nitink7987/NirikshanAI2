@@ -1,6 +1,6 @@
 """
 ml/train.py
-Production Multi-Model Benchmark, Probability Calibration & 5-Fold Cross-Validation Suite for Sanchay AI.
+Production Multi-Model Benchmark, Probability Calibration & 5-Fold Cross-Validation Suite for Nirikshan AI.
 Trains and benchmarks CatBoost, XGBoost, LightGBM, Random Forest, and Logistic Regression with:
 1. 5-Fold Stratified & Grouped Cross-Validation with Out-Of-Fold (OOF) predictions.
 2. Platt Scaling & Isotonic Probability Calibration.
@@ -116,7 +116,7 @@ def train_and_benchmark_models(
     seed: int = 42,
 ) -> Dict[str, Any]:
     print("=" * 70)
-    print(f"[SANCHAY MODEL TRAINER] 5-Fold CV Benchmark & Multi-Split Validity Suite (Seed: {seed})")
+    print(f"[NIRIKSHAN AI MODEL TRAINER] 5-Fold CV Benchmark & Multi-Split Validity Suite (Seed: {seed})")
     print(f"Features: {features_dir} | Models: {models_dir} | Selected: {selected_model}")
     print("=" * 70)
 

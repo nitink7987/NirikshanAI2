@@ -1,6 +1,6 @@
 """
 ml/features/temporal.py
-Temporal Intervals, Velocity & Point-in-Time Filtering for Sanchay AI.
+Temporal Intervals, Velocity & Point-in-Time Filtering for Nirikshan AI.
 """
 from __future__ import annotations
 from datetime import date, datetime

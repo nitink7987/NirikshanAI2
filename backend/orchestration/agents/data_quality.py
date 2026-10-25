@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/data_quality.py
-Data Quality Agent Node for Sanchay AI LangGraph workflow.
+Data Quality Agent Node for Nirikshan AI LangGraph workflow.
 Performs deterministic field presence, range checks, and document completeness validation.
 """
 from __future__ import annotations

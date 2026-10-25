@@ -1,5 +1,5 @@
 """
-ml package initialization for Sanchay AI.
+ml package initialization for Nirikshan AI.
 """
 from __future__ import annotations
 import os

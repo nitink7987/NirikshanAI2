@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ SANCHAY — National Infrastructure Intelligence Platform
+# 🏛️ NIRIKSHAN AI — National Infrastructure Intelligence Platform
 ### *Scheme Audit, Network-Centric Compliance & High-Assurance Yield Intelligence*
 
 **Smart India Hackathon (SIH-2024 / SIH-26102)**  
@@ -55,8 +55,8 @@ The **Member of Parliament Local Area Development Scheme (MPLADS)** is a flagshi
 **The Governance Challenge:**
 Traditional audit mechanisms rely on retrospective, sample-based manual inspections conducted months or years after fund disbursement. This allows cost inflation, single-bid tender manipulation, ghost assets, and milestone desynchronization to go undetected until irreversible financial loss occurs.
 
-**The SANCHAY Solution:**
-SANCHAY transitions oversight from *post-mortem inspection* to **continuous, proactive, explainable risk intelligence**. It unifies deterministic statutory rules, 19 specialized AI agents, multi-model machine learning, graph analytics, and temporal RAG to audit 100% of works in real-time across their full lifecycle:
+**The NIRIKSHAN AI Solution:**
+NIRIKSHAN AI transitions oversight from *post-mortem inspection* to **continuous, proactive, explainable risk intelligence**. It unifies deterministic statutory rules, 19 specialized AI agents, multi-model machine learning, graph analytics, and temporal RAG to audit 100% of works in real-time across their full lifecycle:
 
 ```text
 DATA (12 Relational Tables / 176 Features)
@@ -138,7 +138,7 @@ CONTINUOUS LEARNING (Active Feedback Loop Calibrating Model Weights)
 ## 3. Key Innovations & Technical Capabilities
 
 ### A. LangGraph Multi-Agent Stateful Orchestration Pipeline
-SANCHAY implements a **LangGraph-based stateful multi-agent orchestration layer**, utilizing LangChain for LLM, tool, and RAG abstractions. Execution flows through a strongly typed supervisor-governed StateGraph:
+NIRIKSHAN AI implements a **LangGraph-based stateful multi-agent orchestration layer**, utilizing LangChain for LLM, tool, and RAG abstractions. Execution flows through a strongly typed supervisor-governed StateGraph:
 
 * **Stateful Supervisor & Domain Specialization:**
   - `Supervisor Node`: Dynamically routes execution across specialist domain agents (`Financial`, `Compliance`, `Procurement`, `Contractor`, `Progress`).

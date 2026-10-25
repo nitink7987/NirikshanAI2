@@ -1,7 +1,7 @@
-# Sanchay AI — Model Card
+# Nirikshan AI — Model Card
 
 ## Model Details
-- **Model Name:** Sanchay Anomaly & Statutory Risk Predictor
+- **Model Name:** Nirikshan Anomaly & Statutory Risk Predictor
 - **Model Version:** `sanchay-risk-v2.0.0`
 - **Architecture:** Gradient Boosted Decision Tree (Random Forest / CatBoost / XGBoost / LightGBM) with 5-Fold Stratified Cross-Validation and 3-Fold Platt Scaling Calibration.
 - **Unsupervised Anomaly Model:** Isolation Forest (multivariate outlier detection).
@@ -40,7 +40,7 @@
 | **Generator B External Holdout** | Random Forest (Unseen Mechanisms) | **0.1871** | **0.4733** | **0.0000** | **0.1857** | N/A |
 
 ### Scientific Finding & Discussion
-The dramatic performance drop on the independent Generator B holdout (PR-AUC 0.9182 -> 0.1871) confirms that models trained on specific synthetic fraud heuristics do not magically generalize to unmodeled, novel cartel mechanisms. Sanchay AI addresses this by combining the statistical ML model with:
+The dramatic performance drop on the independent Generator B holdout (PR-AUC 0.9182 -> 0.1871) confirms that models trained on specific synthetic fraud heuristics do not magically generalize to unmodeled, novel cartel mechanisms. Nirikshan AI addresses this by combining the statistical ML model with:
 1. **Deterministic Statutory Rules** (GFR 2017 & MPLADS 2023 Guidelines).
 2. **Unsupervised Outlier Detection** (Isolation Forest).
 3. **Graph Network Intelligence** (Contractor relationship syndicates).

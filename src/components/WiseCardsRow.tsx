@@ -173,7 +173,7 @@ export const WiseCardsRow: React.FC<WiseCardsRowProps> = ({
         </div>
       </SpotlightCard>
 
-      {/* CARD 2: Do more with AI Sanchay (Omitted when hideDoMore is true) */}
+      {/* CARD 2: Do more with AI Nirikshan (Omitted when hideDoMore is true) */}
       {!hideDoMore && (
         <SpotlightCard className="lg:col-span-4 bg-[#F1F0EC] rounded-[20px] p-6 flex flex-col items-center justify-between text-center min-h-[300px] relative overflow-hidden border border-transparent hover:border-[#E5E3DC]">
           {/* Subtle Arched Top Layer (Wise style) */}
@@ -181,7 +181,7 @@ export const WiseCardsRow: React.FC<WiseCardsRowProps> = ({
 
           <div className="my-auto space-y-2 max-w-[280px]">
             <h2 className="text-lg sm:text-xl font-semibold text-[#0E0E0E] leading-snug">
-              Do more with AI Sanchay
+              Do more with AI Nirikshan
             </h2>
             <p className="text-xs sm:text-sm text-[#6B6B6B] leading-relaxed">
               Continuous ISRO satellite radar, GSTIN shell detection, and automated CAG compliance.

@@ -49,7 +49,7 @@ export function MpDashboardPage() {
   };
 
   const handleAuditScan = () => {
-    toast.success(`Initiating Sanchay audit scan for ${selectedConstituency || 'Pune Constituency'}...`);
+    toast.success(`Initiating Nirikshan AI audit scan for ${selectedConstituency || 'Pune Constituency'}...`);
     setAiAssistantOpen(true);
   };
 
@@ -89,7 +89,7 @@ export function MpDashboardPage() {
         totalOutlayCr={mpMetrics.totalSanctionedCr}
       />
 
-      {/* Wise Cards Row: Account Card + Sub-Balances + Flow Stream Telemetry + AI Sanchay Card */}
+      {/* Wise Cards Row: Account Card + Sub-Balances + Flow Stream Telemetry + AI Nirikshan Card */}
       <WiseCardsRow
         onOpenCardDetails={() => openEvidenceDrawer({ title: `${selectedConstituency || 'Pune'} Constituency Fund Allocations` })}
         onOpenDoMoreAction={() => setAiAssistantOpen(true)}

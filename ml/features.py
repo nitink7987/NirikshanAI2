@@ -1,6 +1,6 @@
 """
 ml/features.py
-Comprehensive High-Dimensional Multi-Domain Feature Engineering Engine for Sanchay AI.
+Comprehensive High-Dimensional Multi-Domain Feature Engineering Engine for Nirikshan AI.
 Extracts 176 canonical domain features across Financial, Temporal Velocity, Contractor Network, Procurement Spread,
 Geospatial Proximity, Document Integrity, and Deterministic Rule Violations with 100% deterministic reproducibility.
 """
@@ -28,7 +28,7 @@ def build_comprehensive_feature_matrix(
     output_dir: str = "data/synthetic/features"
 ) -> pd.DataFrame:
     print("=" * 60)
-    print("[SANCHAY FEATURE ENGINE] Building Canonical Multi-Domain Feature Matrix")
+    print("[NIRIKSHAN AI FEATURE ENGINE] Building Canonical Multi-Domain Feature Matrix")
     print(f"Source: {relational_dir} | Output: {output_dir}")
     print("=" * 60)
 

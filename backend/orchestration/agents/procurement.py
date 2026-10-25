@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/procurement.py
-Procurement Specialist Agent Node for Sanchay AI LangGraph workflow.
+Procurement Specialist Agent Node for Nirikshan AI LangGraph workflow.
 """
 from __future__ import annotations
 from typing import Any, Dict, List

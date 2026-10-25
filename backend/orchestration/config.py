@@ -1,6 +1,6 @@
 """
 backend/orchestration/config.py
-Configuration for LangChain and LangGraph Orchestration in Sanchay AI.
+Configuration for LangChain and LangGraph Orchestration in Nirikshan AI.
 Supports multi-provider LLM abstraction with an offline Mock Mode for CI/testing.
 """
 from __future__ import annotations

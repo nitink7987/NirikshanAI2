@@ -289,7 +289,7 @@ export const AnimatedSchemeGraph: React.FC<AnimatedSchemeGraphProps> = ({
       <div className="relative z-10 mt-2 pt-2 border-t border-[#F1F0EC] flex items-center justify-between text-[10px] text-[#6B6B6B]">
         <div className="flex items-center gap-1">
           <Activity className="w-3 h-3 text-[#0E0E0E]" />
-          <span>Real-time Sanchay telemetry</span>
+          <span>Real-time Nirikshan telemetry</span>
         </div>
         {onOpenDetails && (
           <button

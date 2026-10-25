@@ -62,7 +62,7 @@ export function LandingNavbar() {
             <div className="flex flex-col justify-center">
               <div className="flex items-center gap-1.5 leading-tight">
                 <span className="font-extrabold tracking-wider text-[14px] text-[#0E0E0E] font-sans">
-                  SANCHAY
+                  NIRIKSHAN AI
                 </span>
                 <span className="rounded bg-[#F1F0EC] px-1.5 py-0.5 text-[8.5px] font-bold text-[#0E0E0E] border border-[#E5E3DC] font-mono tracking-tight">
                   MPLADS INTELLIGENCE
@@ -112,7 +112,7 @@ export function LandingNavbar() {
                 size="sm"
                 className="group bg-[#002449] hover:bg-[#001B36] text-white text-xs inline-flex items-center gap-2 shadow-xs font-bold h-8.5 px-4 rounded-full transition-colors"
               >
-                <span>Open Sanchay Dashboard</span>
+                <span>Open Nirikshan Dashboard</span>
                 <ArrowRight className="h-3.5 w-3.5 text-white/70 transition-transform duration-200 group-hover:translate-x-1" />
               </Button>
             </Link>

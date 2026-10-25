@@ -55,7 +55,7 @@ export function TopHeader() {
         </button>
         <Link
           to="/"
-          title="Return to National Sanchay Portal"
+          title="Return to National Nirikshan AI Portal"
           className="font-bold text-lg tracking-tight text-[#0E0E0E] leading-none hover:opacity-75 transition-opacity cursor-pointer flex items-center gap-2"
         >
           <div className="w-8 h-8 flex items-center justify-center">
@@ -109,7 +109,7 @@ export function TopHeader() {
           <ChevronDown className="w-3.5 h-3.5 text-[#6B6B6B] absolute right-2 pointer-events-none" />
         </div>
 
-        {/* Ask Sanchay */}
+        {/* Ask Nirikshan AI */}
         <button
           onClick={() => setAiAssistantOpen(true)}
           className="bg-[#15803D] hover:bg-[#166534] text-white font-semibold text-xs px-4 py-2 rounded-full transition-colors cursor-pointer flex items-center gap-1.5 shadow-none"
@@ -128,12 +128,12 @@ export function TopHeader() {
             {currentRole === 'DISTRICT_AUTHORITY'
               ? 'DM'
               : currentRole === 'MP'
-              ? 'MP'
-              : currentRole === 'STATE_NODAL'
-              ? 'SN'
-              : currentRole === 'MINISTRY_DIID'
-              ? 'DG'
-              : 'AG'}
+                ? 'MP'
+                : currentRole === 'STATE_NODAL'
+                  ? 'SN'
+                  : currentRole === 'MINISTRY_DIID'
+                    ? 'DG'
+                    : 'AG'}
           </span>
           <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 border-2 border-white rounded-full" title="Online & Verified" />
         </button>

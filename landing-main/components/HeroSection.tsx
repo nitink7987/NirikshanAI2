@@ -82,7 +82,7 @@ export function HeroSection() {
             {/* Eyebrow Badge */}
             <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-0.5 text-[11px] font-semibold text-[#0E0E0E] border border-[#E5E3DC] shadow-2xs">
               <span className="flex h-1.5 w-1.5 rounded-full bg-[#D99018]" />
-              <span className="font-extrabold font-mono uppercase tracking-wider text-[#0E0E0E]">SANCHAY</span>
+              <span className="font-extrabold font-mono uppercase tracking-wider text-[#0E0E0E]">NIRIKSHAN AI</span>
               <span className="text-[#98A2B3]">•</span>
               <span className="text-[11px] text-[#6B6B6B] font-medium tracking-wide">MPLADS INTELLIGENCE</span>
             </div>
@@ -119,7 +119,7 @@ export function HeroSection() {
                   size="lg"
                   className="group bg-[#002449] hover:bg-[#001B36] text-white text-xs sm:text-sm font-bold flex items-center gap-2 px-6 h-11 shadow-elevated transition-colors rounded-full"
                 >
-                  <span>OPEN SANCHAY DASHBOARD</span>
+                  <span>OPEN NIRIKSHAN AI DASHBOARD</span>
                   <ArrowRight className="h-4 w-4 text-white/70 transition-transform duration-200 group-hover:translate-x-1" />
                 </Button>
               </Link>

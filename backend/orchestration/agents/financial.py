@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/financial.py
-Financial Intelligence Agent Node for Sanchay AI LangGraph workflow.
+Financial Intelligence Agent Node for Nirikshan AI LangGraph workflow.
 """
 from __future__ import annotations
 from typing import Any, Dict, List

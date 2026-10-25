@@ -1,6 +1,6 @@
 """
 ml/features/progress.py
-Physical and Financial Progress & Velocity Features for Sanchay AI.
+Physical and Financial Progress & Velocity Features for Nirikshan AI.
 """
 from __future__ import annotations
 from typing import Dict

@@ -1,6 +1,6 @@
 """
 backend/orchestration/tools
-LangChain tool wrappers for Sanchay AI deterministic and intelligence services.
+LangChain tool wrappers for Nirikshan AI deterministic and intelligence services.
 """
 from backend.orchestration.tools.ml_tools import run_ml_risk_models, compute_shap_attributions
 from backend.orchestration.tools.compliance_tools import evaluate_statutory_compliance

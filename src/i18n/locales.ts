@@ -3,12 +3,12 @@
 
 export const translations = {
   "en": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "MPLADS Forensic Auditing & Risk Intelligence",
     "header": {
       "context": "Context",
       "role": "Role",
-      "askSanchay": "Ask Sanchay"
+      "askSanchay": "Ask Nirikshan AI"
     },
     "roles": {
       "MP": "MP (Lok Sabha)",
@@ -212,12 +212,12 @@ export const translations = {
     }
   },
   "hi": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "एमपीलैड्स न्यायिक लेखापरीक्षण और जोखिम खुफिया",
     "header": {
       "context": "संदर्भ",
       "role": "भूमिका",
-      "askSanchay": "संचय को पूछें"
+      "askSanchay": "Nirikshan AI से पूछें"
     },
     "roles": {
       "MP": "सांसद (लोक सभा)",
@@ -421,12 +421,12 @@ export const translations = {
     }
   },
   "mr": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "एमपीलैड्स न्यायवैद्यक लेखापरीक्षण आणि जोखीम बुद्धिमत्ता",
     "header": {
       "context": "संदर्भ",
       "role": "भूमिका",
-      "askSanchay": "संचयला विचारा"
+      "askSanchay": "Nirikshan AI ला विचारा"
     },
     "roles": {
       "MP": "खासदार (लोकसभा)",
@@ -630,12 +630,12 @@ export const translations = {
     }
   },
   "pa": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "ਐਮ.ਪੀ.ਐਲ.ਏ.ਡੀ.ਐਸ. ਫੋਰੈਂਸਿਕ ਆਡਿਟਿੰਗ ਅਤੇ ਜੋਖਮ ਖੁਫੀਆ",
     "header": {
       "context": "ਸੰਦਰਭ",
       "role": "ਭੂਮਿਕਾ",
-      "askSanchay": "ਸੰਚੈ ਤੋਂ ਪੁੱਛੋ"
+      "askSanchay": "Nirikshan AI ਤੋਂ ਪੁੱਛੋ"
     },
     "roles": {
       "MP": "ਐਮ.ਪੀ. (ਲੋਕ ਸਭਾ)",
@@ -839,12 +839,12 @@ export const translations = {
     }
   },
   "te": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "ఎమ్మిల్యాడ్స్ ఫోరెన్సిక్ ఆడిటింగ్ & రిస్క్ ఇంటెలిజెన్స్",
     "header": {
       "context": "సందర్భం",
       "role": "పాత్ర",
-      "askSanchay": "సంచయ్ను అడగండి"
+      "askSanchay": "Nirikshan AI ని అడగండి"
     },
     "roles": {
       "MP": "ఎంపీ (లోక్‌సభ)",
@@ -1048,12 +1048,12 @@ export const translations = {
     }
   },
   "ta": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "எம்பிஎல்ஏடிஎஸ் தடயவியல் தணிக்கை மற்றும் இடர் நுண்ணறிவு",
     "header": {
       "context": "சூழல்",
       "role": "பங்கு",
-      "askSanchay": "சஞ்சய்விடம் கேளுங்கள்"
+      "askSanchay": "Nirikshan AIயிடம் கேளுங்கள்"
     },
     "roles": {
       "MP": "எம்பி (மக்களவை)",
@@ -1257,12 +1257,12 @@ export const translations = {
     }
   },
   "ur": {
-    "brand": "sanchay",
+    "brand": "Nirikshan AI",
     "tagline": "ایم پی ایل اے ڈی ایس فارنسک آڈٹ اور رسک انٹیلی جنس",
     "header": {
       "context": "سیاق و سباق",
       "role": "کردار",
-      "askSanchay": "سنچے سے پوچھیں"
+      "askSanchay": "Nirikshan AI سے پوچھیں"
     },
     "roles": {
       "MP": "ایم پی (لوک سبھا)",

@@ -107,7 +107,7 @@ export function FromDataToDecisionSection() {
           </h2>
 
           <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-2xl font-normal">
-            SANCHAY connects project records, financial activity, execution progress, governance rules and evidence into a single risk intelligence layer.
+            NIRIKSHAN AI connects project records, financial activity, execution progress, governance rules and evidence into a single risk intelligence layer.
           </p>
         </div>
 

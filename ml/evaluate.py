@@ -1,6 +1,6 @@
 """
 ml/evaluate.py
-Evaluation & Explainability Reporting Engine for Sanchay AI.
+Evaluation & Explainability Reporting Engine for Nirikshan AI.
 Generates Confusion Matrix, ROC/PR curves, Feature Importance, SHAP Summary, and comprehensive Markdown reports.
 """
 from __future__ import annotations
@@ -30,7 +30,7 @@ def evaluate_and_generate_reports(
     docs_dir: str = "docs",
 ):
     print("=" * 60)
-    print("[SANCHAY EVALUATOR] Generating Evaluation Reports, SHAP & Visual Plots")
+    print("[NIRIKSHAN AI EVALUATOR] Generating Evaluation Reports, SHAP & Visual Plots")
     print(f"Reports: {reports_dir} | Docs: {docs_dir}")
     print("=" * 60)
 
@@ -62,7 +62,7 @@ def evaluate_and_generate_reports(
     cr = classification_report(y_test, y_pred, target_names=["Legitimate", "Suspicious/Anomalous"])
     with open(os.path.join(reports_dir, "classification_report.txt"), "w") as f:
         f.write("============================================================\n")
-        f.write("Sanchay AI Audit — Held-Out Test Classification Report\n")
+        f.write("Nirikshan AI Audit — Held-Out Test Classification Report\n")
         f.write("============================================================\n\n")
         f.write(cr)
 
@@ -71,7 +71,7 @@ def evaluate_and_generate_reports(
     fig, ax = plt.subplots(figsize=(6, 5))
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["Legitimate", "Anomalous"])
     disp.plot(ax=ax, cmap="Blues", values_format="d")
-    ax.set_title("Sanchay Audit Risk Model — Test Confusion Matrix")
+    ax.set_title("Nirikshan Audit Risk Model — Test Confusion Matrix")
     plt.tight_layout()
     plt.savefig(os.path.join(reports_dir, "confusion_matrix.png"), dpi=300)
     plt.close()
@@ -147,10 +147,10 @@ def evaluate_and_generate_reports(
             table_rows.append(f"| **{m_name}** | {split} | `{pr}` | `{roc}` | `{f1}` | `{brier}` | `{ece}` |")
 
     # 7. Generate reports/FINAL_ML_REPORT.md & docs/ML_MODEL_REPORT.md
-    final_report_md = f"""# Sanchay AI — Machine Learning & Statutory Risk Model Report
+    final_report_md = f"""# Nirikshan AI — Machine Learning & Statutory Risk Model Report
 
 ## 1. Executive Summary
-The **Sanchay Machine Learning Risk Engine** classifies project risk into **LOW, MEDIUM, HIGH, and CRITICAL** tiers and predicts multi-label anomaly vectors across 7 operational domains.
+The **Nirikshan Machine Learning Risk Engine** classifies project risk into **LOW, MEDIUM, HIGH, and CRITICAL** tiers and predicts multi-label anomaly vectors across 7 operational domains.
 
 The model stack features **Random Forest, CatBoost, XGBoost, LightGBM, and Isolation Forest**, calibrated with Platt Scaling (3-Fold Sigmoid Calibration) to output reliable posterior probabilities.
 

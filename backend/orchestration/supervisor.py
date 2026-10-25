@@ -1,6 +1,6 @@
 """
 backend/orchestration/supervisor.py
-Central Supervisor Node for Sanchay AI LangGraph workflow.
+Central Supervisor Node for Nirikshan AI LangGraph workflow.
 Inspects data completeness, determines active domain subgraphs, and coordinates execution flow.
 """
 from __future__ import annotations

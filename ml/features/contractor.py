@@ -1,6 +1,6 @@
 """
 ml/features/contractor.py
-Contractor Profile, Historical Performance & Capacity Strain Features for Sanchay AI.
+Contractor Profile, Historical Performance & Capacity Strain Features for Nirikshan AI.
 """
 from __future__ import annotations
 from typing import Any, Dict, Optional

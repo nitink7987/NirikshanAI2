@@ -1,6 +1,6 @@
 """
 tests/orchestration/test_tools_and_agents.py
-Tests LangChain tools and specialist agent nodes in Sanchay AI orchestration package.
+Tests LangChain tools and specialist agent nodes in Nirikshan AI orchestration package.
 """
 import pytest
 from backend.orchestration.tools.ml_tools import run_ml_risk_models, compute_shap_attributions

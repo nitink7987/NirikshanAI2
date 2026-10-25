@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents
-Specialized reasoning agent nodes for Sanchay AI LangGraph workflow.
+Specialized reasoning agent nodes for Nirikshan AI LangGraph workflow.
 """
 from backend.orchestration.agents.data_quality import data_quality_node
 from backend.orchestration.agents.compliance import compliance_node

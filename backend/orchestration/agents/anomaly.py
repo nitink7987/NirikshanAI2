@@ -1,6 +1,6 @@
 """
 backend/orchestration/agents/anomaly.py
-Statistical Anomaly & Model Inference Agent Node for Sanchay AI LangGraph workflow.
+Statistical Anomaly & Model Inference Agent Node for Nirikshan AI LangGraph workflow.
 """
 from __future__ import annotations
 from typing import Any, Dict, List

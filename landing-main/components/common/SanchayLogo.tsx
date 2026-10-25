@@ -11,13 +11,13 @@ export function SanchayLogo({ className = 'h-6 w-6', variant = 'auto', size }: S
     variant === 'light'
       ? '/logo-white.png'
       : variant === 'navy'
-      ? '/logo-navy.png'
-      : '/logo.png';
+        ? '/logo-navy.png'
+        : '/logo.png';
 
   return (
     <img
       src={src}
-      alt="SANCHAY Logo"
+      alt="NIRIKSHAN AI Logo"
       style={size ? { width: size, height: size } : undefined}
       className={`object-contain select-none pointer-events-none ${className}`}
     />

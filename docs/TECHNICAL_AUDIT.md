@@ -1,6 +1,6 @@
-# Sanchay AI — Technical Audit & Vulnerability Matrix
+# Nirikshan AI — Technical Audit & Vulnerability Matrix
 
-This document provides a comprehensive technical audit of the **Sanchay AI** codebase prior to the production hardening refactor, cataloging identified design flaws, data leakage risks, inference inconsistencies, and architectural gaps alongside their remediation plans and verification statuses.
+This document provides a comprehensive technical audit of the **Nirikshan AI** codebase prior to the production hardening refactor, cataloging identified design flaws, data leakage risks, inference inconsistencies, and architectural gaps alongside their remediation plans and verification statuses.
 
 ---
 
